@@ -1,0 +1,19 @@
+#spring:
+#  profiles:
+#    active: native
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/greg0ry27/spring-cloud-config.git
+server:
+  port: 8000
+endpoints:
+  actuator:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

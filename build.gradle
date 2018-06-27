@@ -1,0 +1,12 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+}
+
+
+group = 'com.greg'
+version = '1.0.0-SNAPSHOT'
+repositories {
+	mavenCentral()
+}
